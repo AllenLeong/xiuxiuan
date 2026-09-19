@@ -1,0 +1,19 @@
+{
+ "date":"2026-09-16",
+ "workload":"60 s automated camera motion; expanded inspector; second natural-map soak tab running",
+ "revision":"static boundary Path2D cache; before frame-coalesced texture rebuild",
+ "browser":"Codex in-app Chrome/152.0.0.0",
+ "viewport":{"width":1280,"height":720},"size":256,"year":139,"steps":556,
+ "elapsedSeconds":60.06940000003576,"frames":2957,"draws":2957,"rafFps":49.226394803314825,"frameP95":50,
+ "requests":{"play":{"count":1,"p50":31,"p95":31,"max":31},"select":{"count":20,"p50":90.59999996423721,"p95":206.30000001192093,"max":206.30000001192093}},
+ "memoryTimeline":[
+  {"elapsedSeconds":0.013600000035763515,"used":51464520,"total":74781200},
+  {"elapsedSeconds":10.013600000035764,"used":47264852,"total":115935216},
+  {"elapsedSeconds":20.013700000035765,"used":35481818,"total":97847322},
+  {"elapsedSeconds":30.030400000035762,"used":59712754,"total":126814226},
+  {"elapsedSeconds":40.03050000003576,"used":39558153,"total":98371629},
+  {"elapsedSeconds":50.04710000003576,"used":51777604,"total":115214384}
+ ],
+ "memory":{"used":83701569,"total":144181465},"pass":false,
+ "conclusion":"Average redraw rate passes; click p95 still exceeds 200ms. Do not claim all frames are above 30FPS."
+}

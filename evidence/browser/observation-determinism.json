@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-16",
+  "size": 32,
+  "scenario": "S09-treatment",
+  "years": 1000,
+  "steps": 4000,
+  "protocol": [
+    "Load identical public initial JSON via browser file chooser",
+    "Baseline: maximum speed, fixed view",
+    "Observed: slow then maximum, all nine layers, zoom in/out and inspect during simulation",
+    "Headless: load same JSON in Node, 4000 steps, no renderer"
+  ],
+  "compared": "Every serialized key, including typed-array data, PRNG, events, cohorts, seeds, flow ledgers and metadata. No excluded fields.",
+  "browserDifferences": [],
+  "headlessDifferences": [],
+  "artifacts": [
+    {
+      "path": "evidence/browser/repeat-browser-baseline-1000.json",
+      "sha256": "156de70bafbd1b76fc9bf030ae880828dba6ff7777b6d8414c142c2906f3cf96"
+    },
+    {
+      "path": "evidence/browser/repeat-browser-observed-1000.json",
+      "sha256": "156de70bafbd1b76fc9bf030ae880828dba6ff7777b6d8414c142c2906f3cf96"
+    },
+    {
+      "path": "evidence/browser/repeat-headless-1000.json",
+      "sha256": "156de70bafbd1b76fc9bf030ae880828dba6ff7777b6d8414c142c2906f3cf96"
+    }
+  ],
+  "sourceHashes": {
+    "src/world.js": "dba95ecfb2284ad805f576946c2275690186c38b838abf9d14ac5397d185b816",
+    "src/worker.js": "9f52e2f072c4e9d1a031035014f9100ddb707ba402de311157067562acff5539",
+    "src/map.js": "6b5069ce8bbfbbbc6c01d592037dd5a4990ea2b5299821db3d9cd96776cb6299",
+    "src/app.js": "dadd803bd84ed12164aebacd1003a4ff1c7505f9f61cd8054bf50164acc16b49"
+  },
+  "pass": true
+}

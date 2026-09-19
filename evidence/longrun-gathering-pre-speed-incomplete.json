@@ -1,0 +1,824 @@
+{
+  "started": "2026-09-16T09:05:43.621Z",
+  "mode": "Node headless; includes audit overhead; not browser FPS",
+  "size": 256,
+  "dt": 0.25,
+  "years": 500,
+  "seeds": [
+    "验收-101",
+    "验收-202",
+    "验收-303",
+    "验收-404",
+    "验收-505"
+  ],
+  "machine": {
+    "cpu": "Apple M2",
+    "memory": 17179869184,
+    "os": "25.3.0",
+    "node": "v25.8.0"
+  },
+  "sourceHashes": {
+    "src/world.js": "cd9521fda1a5d21e7eb521c0e40d23d3976445c69909e936782aae85a9951b3d",
+    "src/qi-transport.js": "8bcdeca6fd166e45f2281ac594cc0c821a5efb2b1d9015ba594b0b8bde5f80ed",
+    "src/ancient-influence.js": "dbc2eaaede3f6f08da128d93af504078565bf462e8d338f0151cd80b2f9929c5",
+    "src/regions.js": "66bdb29d738d12428658d5494e3a5508f939f71a65311067937abca0d076240a",
+    "src/region-geometry.js": "d7208354795cb429707e2dba94f1835720d35a48c5dcae2b5e4c737d56d7ff13",
+    "src/species.js": "1b3db163ed8c9f5d5e72f6071c5139f76e296f1720ab2b2b7e8ebfd2b0eea477",
+    "src/terrain.js": "167aa54ea6fbe4c1f10b0edf396ff9faabbf1d96171a6e553c5bcd84d9a75f33",
+    "src/geography.js": "944181d71b3dbdbd29cc7c2e15961b6b9fdcc2f7d16c8e8de624b063a97050ca",
+    "src/landforms.js": "6a8e710df8aaabc6023f9a07f46b0eb893823093769d9f3cc69dc1368c1a907f",
+    "src/validate-state.js": "af07f4beefcd717f21231b866513722b7ff6d2bb7744ee85f9d9fedaf89e51a3",
+    "verification/step-audit.js": "edaea4e0609672082a60190f21545d054c4a88487e54d4f8cb1911dd40a251ad",
+    "scripts/longrun-structured.mjs": "c71c98023b2338fb05aa75e6bcefaa7ce77bd5f038b488090a99ffa01e22384b"
+  },
+  "runs": [
+    {
+      "seed": "验收-101",
+      "generationMs": 433.72266599999995,
+      "steps": 1400,
+      "invalid": 0,
+      "negative": 0,
+      "capacity": 0,
+      "budget": 0,
+      "maxRelativeError": 4.0925831018142483e-14,
+      "firstFailure": null,
+      "checkpoints": [
+        {
+          "year": 25,
+          "elapsedMs": 14406.418958,
+          "memory": {
+            "rss": 378421248,
+            "heapTotal": 152158208,
+            "heapUsed": 26710320,
+            "external": 97553880,
+            "arrayBuffers": 83128559
+          },
+          "total": 15900938.074579913,
+          "plants": 143401,
+          "trees": 68637,
+          "ground": 14967943.802702332,
+          "air": 166061.45765641672,
+          "mineral": 591804.1948700752,
+          "ancients": 42,
+          "escaped": 291043.97830475884,
+          "airQuantiles": [
+            2.4294576751891115,
+            3.412383579774453,
+            6.8511212556113295,
+            55.75519182804384
+          ],
+          "airAbove50": 1,
+          "plantQi": 26180.31582007745,
+          "stages": {
+            "0": 7821,
+            "1": 1
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 5,
+              "covered": 1987
+            },
+            "forest": {
+              "count": 28,
+              "covered": 1216
+            },
+            "qi": {
+              "count": 17,
+              "covered": 9067
+            },
+            "ancient": {
+              "count": 1,
+              "covered": 13
+            }
+          }
+        },
+        {
+          "year": 50,
+          "elapsedMs": 26210.53225,
+          "memory": {
+            "rss": 427261952,
+            "heapTotal": 197296128,
+            "heapUsed": 118789448,
+            "external": 97568520,
+            "arrayBuffers": 95449327
+          },
+          "total": 15991631.566621035,
+          "plants": 208397,
+          "trees": 111141,
+          "ground": 14787122.260063466,
+          "air": 158152.65222449382,
+          "mineral": 807669.3875852447,
+          "ancients": 37,
+          "escaped": 533778.7027356959,
+          "airQuantiles": [
+            2.3258721360530505,
+            3.2553455594138643,
+            6.9645865912672456,
+            69.4452474862477
+          ],
+          "airAbove50": 5,
+          "plantQi": 58241.00834495161,
+          "stages": {
+            "0": 13314,
+            "1": 359
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 8,
+              "covered": 2104
+            },
+            "forest": {
+              "count": 61,
+              "covered": 2842
+            },
+            "qi": {
+              "count": 20,
+              "covered": 9157
+            },
+            "ancient": {
+              "count": 3,
+              "covered": 33
+            }
+          }
+        },
+        {
+          "year": 75,
+          "elapsedMs": 37616.301541,
+          "memory": {
+            "rss": 424886272,
+            "heapTotal": 195772416,
+            "heapUsed": 93350632,
+            "external": 100583176,
+            "arrayBuffers": 98463983
+          },
+          "total": 16103621.488759393,
+          "plants": 275498,
+          "trees": 179624,
+          "ground": 14805090.900041098,
+          "air": 157758.95415294112,
+          "mineral": 822264.2467379014,
+          "ancients": 36,
+          "escaped": 772375.3758331658,
+          "airQuantiles": [
+            2.308475254003584,
+            3.2258224444157584,
+            7.044140209261331,
+            82.7084015700447
+          ],
+          "airAbove50": 2,
+          "plantQi": 101536.26928940916,
+          "stages": {
+            "0": 27446,
+            "1": 2075,
+            "2": 109
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 8,
+              "covered": 1974
+            },
+            "forest": {
+              "count": 49,
+              "covered": 7242
+            },
+            "qi": {
+              "count": 22,
+              "covered": 9176
+            },
+            "ancient": {
+              "count": 3,
+              "covered": 35
+            }
+          }
+        },
+        {
+          "year": 100,
+          "elapsedMs": 50621.314333,
+          "memory": {
+            "rss": 394723328,
+            "heapTotal": 194772992,
+            "heapUsed": 105922608,
+            "external": 87672584,
+            "arrayBuffers": 85553391
+          },
+          "total": 16235089.057832342,
+          "plants": 347328,
+          "trees": 271978,
+          "ground": 14821887.009307,
+          "air": 158084.91749571956,
+          "mineral": 836374.9936976532,
+          "ancients": 36,
+          "escaped": 1011053.0322346129,
+          "airQuantiles": [
+            2.30626164164675,
+            3.2062171422310968,
+            7.280833494120111,
+            46.925269056753336
+          ],
+          "airAbove50": 0,
+          "plantQi": 155210.98889214438,
+          "stages": {
+            "0": 54059,
+            "1": 6261,
+            "2": 393
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 7,
+              "covered": 1792
+            },
+            "forest": {
+              "count": 38,
+              "covered": 12705
+            },
+            "qi": {
+              "count": 25,
+              "covered": 9300
+            },
+            "ancient": {
+              "count": 3,
+              "covered": 32
+            }
+          }
+        },
+        {
+          "year": 125,
+          "elapsedMs": 62671.627875000006,
+          "memory": {
+            "rss": 399638528,
+            "heapTotal": 196689920,
+            "heapUsed": 101238864,
+            "external": 96913160,
+            "arrayBuffers": 94793967
+          },
+          "total": 16396728.767546263,
+          "plants": 411549,
+          "trees": 372084,
+          "ground": 14835477.008691637,
+          "air": 159211.2930282143,
+          "mineral": 852549.9150868342,
+          "ancients": 35,
+          "escaped": 1250769.928885336,
+          "airQuantiles": [
+            2.307145317607318,
+            3.2024613366466537,
+            7.501770835929471,
+            210.80844994186424
+          ],
+          "airAbove50": 3,
+          "plantQi": 228360.98762259397,
+          "stages": {
+            "0": 91713,
+            "1": 10504,
+            "2": 1040,
+            "3": 5
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 7,
+              "covered": 1893
+            },
+            "forest": {
+              "count": 16,
+              "covered": 19475
+            },
+            "qi": {
+              "count": 37,
+              "covered": 9624
+            },
+            "ancient": {
+              "count": 2,
+              "covered": 25
+            }
+          }
+        },
+        {
+          "year": 150,
+          "elapsedMs": 74275.572625,
+          "memory": {
+            "rss": 384385024,
+            "heapTotal": 189038592,
+            "heapUsed": 97628064,
+            "external": 81577736,
+            "arrayBuffers": 79458543
+          },
+          "total": 16598106.602790669,
+          "plants": 471845,
+          "trees": 464954,
+          "ground": 14847145.289632393,
+          "air": 160715.1528484584,
+          "mineral": 870593.183912743,
+          "ancients": 35,
+          "escaped": 1492461.8179033564,
+          "airQuantiles": [
+            2.309138158755865,
+            3.216094050766039,
+            7.665769207121122,
+            156.783364804144
+          ],
+          "airAbove50": 11,
+          "plantQi": 318237.7742102303,
+          "stages": {
+            "0": 132271,
+            "1": 13623,
+            "2": 2714,
+            "3": 75
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 5,
+              "covered": 1730
+            },
+            "forest": {
+              "count": 11,
+              "covered": 24355
+            },
+            "qi": {
+              "count": 39,
+              "covered": 10104
+            },
+            "ancient": {
+              "count": 5,
+              "covered": 64
+            }
+          }
+        },
+        {
+          "year": 175,
+          "elapsedMs": 87541.572666,
+          "memory": {
+            "rss": 380436480,
+            "heapTotal": 195018752,
+            "heapUsed": 82273016,
+            "external": 96192264,
+            "arrayBuffers": 94073071
+          },
+          "total": 16841889.23810641,
+          "plants": 529480,
+          "trees": 562533,
+          "ground": 14857942.244301347,
+          "air": 161849.9540240098,
+          "mineral": 890709.5142972332,
+          "ancients": 36,
+          "escaped": 1736237.5450513333,
+          "airQuantiles": [
+            2.31377570665722,
+            3.2355238703231355,
+            7.917499341401174,
+            241.51451440460286
+          ],
+          "airAbove50": 12,
+          "plantQi": 435268.90194453415,
+          "stages": {
+            "0": 161663,
+            "1": 17810,
+            "2": 6112,
+            "3": 223
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 10,
+              "covered": 2327
+            },
+            "forest": {
+              "count": 5,
+              "covered": 27709
+            },
+            "qi": {
+              "count": 43,
+              "covered": 10496
+            },
+            "ancient": {
+              "count": 5,
+              "covered": 55
+            }
+          }
+        },
+        {
+          "year": 200,
+          "elapsedMs": 99922.70529099999,
+          "memory": {
+            "rss": 391413760,
+            "heapTotal": 196575232,
+            "heapUsed": 100262904,
+            "external": 103401224,
+            "arrayBuffers": 101282031
+          },
+          "total": 17130101.299012423,
+          "plants": 575043,
+          "trees": 660113,
+          "ground": 14869023.437662218,
+          "air": 163527.05694769908,
+          "mineral": 912313.9396123298,
+          "ancients": 33,
+          "escaped": 1982390.6620752816,
+          "airQuantiles": [
+            2.3162986719524605,
+            3.2515610965175488,
+            8.295566366950391,
+            406.82597704544276
+          ],
+          "airAbove50": 12,
+          "plantQi": 573470.4692312939,
+          "stages": {
+            "0": 187513,
+            "1": 22552,
+            "2": 9289,
+            "3": 521
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 7,
+              "covered": 2621
+            },
+            "forest": {
+              "count": 3,
+              "covered": 29772
+            },
+            "qi": {
+              "count": 47,
+              "covered": 10992
+            },
+            "ancient": {
+              "count": 5,
+              "covered": 51
+            }
+          }
+        },
+        {
+          "year": 225,
+          "elapsedMs": 113305.592208,
+          "memory": {
+            "rss": 352681984,
+            "heapTotal": 153419776,
+            "heapUsed": 32714952,
+            "external": 93243144,
+            "arrayBuffers": 80507119
+          },
+          "total": 17463823.577883154,
+          "plants": 616964,
+          "trees": 760331,
+          "ground": 14880796.491081784,
+          "air": 164732.91983510923,
+          "mineral": 935363.3593100781,
+          "ancients": 33,
+          "escaped": 2231316.5146531905,
+          "airQuantiles": [
+            2.3209986538018588,
+            3.2790266773682597,
+            8.631150220303379,
+            413.45116418193953
+          ],
+          "airAbove50": 10,
+          "plantQi": 741720.8603979809,
+          "stages": {
+            "0": 199307,
+            "1": 29937,
+            "2": 13566,
+            "3": 970
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 8,
+              "covered": 2988
+            },
+            "forest": {
+              "count": 3,
+              "covered": 31190
+            },
+            "qi": {
+              "count": 59,
+              "covered": 11404
+            },
+            "ancient": {
+              "count": 5,
+              "covered": 51
+            }
+          }
+        },
+        {
+          "year": 250,
+          "elapsedMs": 125151.742458,
+          "memory": {
+            "rss": 368607232,
+            "heapTotal": 173867008,
+            "heapUsed": 82548928,
+            "external": 94947080,
+            "arrayBuffers": 92827887
+          },
+          "total": 17840914.9620998,
+          "plants": 643994,
+          "trees": 834829,
+          "ground": 14893593.58046837,
+          "air": 169034.67672974186,
+          "mineral": 959707.8834340168,
+          "ancients": 13,
+          "escaped": 2483195.71234723,
+          "airQuantiles": [
+            2.3255380415047346,
+            3.3120868871918603,
+            9.322384999370483,
+            691.0109108912486
+          ],
+          "airAbove50": 21,
+          "plantQi": 864607.0636504552,
+          "stages": {
+            "0": 204674,
+            "1": 37211,
+            "2": 18327,
+            "3": 1717,
+            "4": 57
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 8,
+              "covered": 3300
+            },
+            "forest": {
+              "count": 2,
+              "covered": 32087
+            },
+            "qi": {
+              "count": 63,
+              "covered": 11807
+            },
+            "ancient": {
+              "count": 7,
+              "covered": 92
+            }
+          }
+        },
+        {
+          "year": 275,
+          "elapsedMs": 136295.24383300002,
+          "memory": {
+            "rss": 357892096,
+            "heapTotal": 164708352,
+            "heapUsed": 52965216,
+            "external": 106350344,
+            "arrayBuffers": 98857199
+          },
+          "total": 18242634.28137327,
+          "plants": 672080,
+          "trees": 905258,
+          "ground": 14907286.030648682,
+          "air": 178427.42714011366,
+          "mineral": 985240.823244759,
+          "ancients": 12,
+          "escaped": 2753489.6283877273,
+          "airQuantiles": [
+            2.329776051211279,
+            3.3373986247000706,
+            9.902139525282891,
+            778.2671745079864
+          ],
+          "airAbove50": 27,
+          "plantQi": 1083741.2136414354,
+          "stages": {
+            "0": 204416,
+            "1": 46633,
+            "2": 23667,
+            "3": 2907,
+            "4": 240
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 8,
+              "covered": 3495
+            },
+            "forest": {
+              "count": 3,
+              "covered": 32810
+            },
+            "qi": {
+              "count": 58,
+              "covered": 12133
+            },
+            "ancient": {
+              "count": 4,
+              "covered": 54
+            }
+          }
+        },
+        {
+          "year": 300,
+          "elapsedMs": 148163.95475,
+          "memory": {
+            "rss": 347095040,
+            "heapTotal": 164003840,
+            "heapUsed": 47994672,
+            "external": 84068104,
+            "arrayBuffers": 81948911
+          },
+          "total": 18693899.279818665,
+          "plants": 686389,
+          "trees": 979462,
+          "ground": 14921245.735945545,
+          "air": 176286.86046261748,
+          "mineral": 1012403.0660663763,
+          "ancients": 8,
+          "escaped": 3020266.6037607477,
+          "airQuantiles": [
+            2.3361579043209963,
+            3.369017228639431,
+            10.346231178113717,
+            710.2866894836976
+          ],
+          "airAbove50": 24,
+          "plantQi": 1299354.1686825715,
+          "stages": {
+            "0": 197655,
+            "1": 55318,
+            "2": 30469,
+            "3": 4034,
+            "4": 381
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 7,
+              "covered": 3603
+            },
+            "forest": {
+              "count": 3,
+              "covered": 33273
+            },
+            "qi": {
+              "count": 51,
+              "covered": 12393
+            },
+            "ancient": {
+              "count": 2,
+              "covered": 29
+            }
+          }
+        },
+        {
+          "year": 325,
+          "elapsedMs": 159300.529833,
+          "memory": {
+            "rss": 351387648,
+            "heapTotal": 168673280,
+            "heapUsed": 64305152,
+            "external": 100452104,
+            "arrayBuffers": 98332911
+          },
+          "total": 19191080.135729272,
+          "plants": 699135,
+          "trees": 1028808,
+          "ground": 14935337.42554246,
+          "air": 174399.8362115317,
+          "mineral": 1041663.1282920967,
+          "ancients": 8,
+          "escaped": 3283488.0426700423,
+          "airQuantiles": [
+            2.339231065878327,
+            3.398111077674674,
+            10.410697070946112,
+            710.2866894836976
+          ],
+          "airAbove50": 18,
+          "plantQi": 1534598.766645539,
+          "stages": {
+            "0": 191328,
+            "1": 60990,
+            "2": 39053,
+            "3": 6049,
+            "4": 359
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 7,
+              "covered": 3696
+            },
+            "forest": {
+              "count": 3,
+              "covered": 33717
+            },
+            "qi": {
+              "count": 51,
+              "covered": 12636
+            },
+            "ancient": {
+              "count": 3,
+              "covered": 42
+            }
+          }
+        },
+        {
+          "year": 350,
+          "elapsedMs": 170874.667541,
+          "memory": {
+            "rss": 342687744,
+            "heapTotal": 161546240,
+            "heapUsed": 28933712,
+            "external": 100976392,
+            "arrayBuffers": 95318255
+          },
+          "total": 19728867.97866447,
+          "plants": 717914,
+          "trees": 1098143,
+          "ground": 14949966.717061218,
+          "air": 174625.0443767019,
+          "mineral": 1072914.5179263162,
+          "ancients": 8,
+          "escaped": 3546586.72851638,
+          "airQuantiles": [
+            2.3419805765505672,
+            3.423424543746623,
+            10.783313348891165,
+            710.2866894836976
+          ],
+          "airAbove50": 10,
+          "plantQi": 1805035.3439599012,
+          "stages": {
+            "0": 183614,
+            "1": 63510,
+            "2": 50419,
+            "3": 8506,
+            "4": 402
+          },
+          "areas": {
+            "landform": {
+              "count": 24,
+              "covered": 39657
+            },
+            "thermal": {
+              "count": 7,
+              "covered": 3686
+            },
+            "forest": {
+              "count": 3,
+              "covered": 34005
+            },
+            "qi": {
+              "count": 50,
+              "covered": 12886
+            },
+            "ancient": {
+              "count": 3,
+              "covered": 40
+            }
+          }
+        }
+      ],
+      "elapsedMs": 170874.667541,
+      "cumulativeAbsoluteError": 0.0001760849436323042,
+      "balanceError": -9.173527359962463e-08
+    }
+  ],
+  "complete": false,
+  "status": "superseded-before-speed-optimization",
+  "stopReason": "User prioritized performance; paused old-code process, then terminated with verified exit 143 before starting optimized version. Incomplete data retained, not a pass."
+}

@@ -1,0 +1,8 @@
+{
+  "startedBeforeUTC": "2026-09-15T21:07:30Z",
+  "tabId": "7",
+  "seed": "青野-001",
+  "size": 256,
+  "status": "running; not yet passed",
+  "note": "Use current live browser to verify. 10-second bounded main-thread heap sampling; do not reload before collecting current measurements."
+}

@@ -1,0 +1,268 @@
+{
+  "seed": "trait-matrix",
+  "size": 16,
+  "dt": 0.25,
+  "purpose": "单因素机制隔离；不作为标准地图性能或自然分布证据",
+  "sourceHashes": {
+    "src/world.js": "8b882a223ca7ffabc377c84813dea5424d8bf7a2d208abb6a8106f4fa8ef802e",
+    "src/species.js": "1b3db163ed8c9f5d5e72f6071c5139f76e296f1720ab2b2b7e8ebfd2b0eea477",
+    "verification/trait-matrix.js": "745969142a02339f122f7b0c533f3fc5470d9eed062e83d76ad4bd7ea2b525bc"
+  },
+  "rows": [
+    {
+      "trait": "temp",
+      "values": [
+        21,
+        40
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        12,
+        10.416666666666666
+      ],
+      "expectation": "second < first",
+      "pass": true
+    },
+    {
+      "trait": "water",
+      "values": [
+        0.55,
+        0.15
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        12,
+        10
+      ],
+      "expectation": "second < first",
+      "pass": true
+    },
+    {
+      "trait": "light",
+      "values": [
+        0.75,
+        0.15
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        12,
+        10.5
+      ],
+      "expectation": "second < first",
+      "pass": true
+    },
+    {
+      "trait": "growth",
+      "values": [
+        0,
+        0.9
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        10,
+        12
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "fertility",
+      "values": [
+        0,
+        1
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        0,
+        2.5
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "size",
+      "values": [
+        1,
+        8
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        12,
+        10.25
+      ],
+      "expectation": "second < first",
+      "pass": true
+    },
+    {
+      "trait": "life",
+      "values": [
+        0.5,
+        20
+      ],
+      "steps": 4,
+      "years": 1,
+      "outcomes": [
+        0,
+        10
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "shade",
+      "values": [
+        0,
+        1
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        12,
+        11.04375
+      ],
+      "expectation": "second < first",
+      "pass": true
+    },
+    {
+      "trait": "need",
+      "values": [
+        1,
+        20
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        1.016,
+        1
+      ],
+      "expectation": "second < first",
+      "pass": true
+    },
+    {
+      "trait": "process",
+      "values": [
+        0,
+        4
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        0,
+        1
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "root",
+      "values": [
+        0,
+        4
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        0,
+        1
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "absorb",
+      "values": [
+        0,
+        4
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        0,
+        49.900375
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "capacity",
+      "values": [
+        1,
+        100
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        1,
+        99.80075
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "release",
+      "values": [
+        0,
+        1
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        0.07350562499999995,
+        99.80075
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "tol",
+      "values": [
+        10,
+        30
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        10,
+        11.2
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "wt",
+      "values": [
+        0.2,
+        0.6
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        10,
+        11.166666666666666
+      ],
+      "expectation": "second > first",
+      "pass": true
+    },
+    {
+      "trait": "tolerance",
+      "values": [
+        100,
+        800
+      ],
+      "steps": 1,
+      "years": 0.25,
+      "outcomes": [
+        1,
+        1.016
+      ],
+      "expectation": "second > first",
+      "pass": true
+    }
+  ]
+}

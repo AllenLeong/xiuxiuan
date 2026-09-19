@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-16T09:42:29.126Z",
+  "size": 256,
+  "fromYear": 0.25,
+  "toYear": 100.25,
+  "stepsAdvanced": 400,
+  "fieldCount": 101,
+  "excludedFields": [],
+  "branches": [
+    {
+      "name": "fixed",
+      "fullHash": "d9f8e809bd394bfe0a6a040c1cdca6209bb61fc80e8d4bc3b9ea57ef0de676d5",
+      "report": "gathering-fixed-100.json"
+    },
+    {
+      "name": "observed",
+      "fullHash": "d9f8e809bd394bfe0a6a040c1cdca6209bb61fc80e8d4bc3b9ea57ef0de676d5",
+      "report": "gathering-observed-100.json"
+    },
+    {
+      "name": "no-render",
+      "fullHash": "d9f8e809bd394bfe0a6a040c1cdca6209bb61fc80e8d4bc3b9ea57ef0de676d5",
+      "report": "gathering-no-render-100.json"
+    },
+    {
+      "name": "corner",
+      "fullHash": "d9f8e809bd394bfe0a6a040c1cdca6209bb61fc80e8d4bc3b9ea57ef0de676d5",
+      "report": "gathering-corner-100.json"
+    }
+  ],
+  "mismatched": [
+    {
+      "name": "observed",
+      "fields": []
+    },
+    {
+      "name": "no-render",
+      "fields": []
+    },
+    {
+      "name": "corner",
+      "fields": []
+    }
+  ],
+  "allIdentical": true,
+  "scope": "Same browser engine: fixed full map, changing layers/zoom/selection, drawing disabled, fixed northwest close view. No-render diagnostic counts zero draws. Rendering restored afterward. Simulation module hashes unchanged throughout; later inspector-only DOM optimization does not change world code."
+}

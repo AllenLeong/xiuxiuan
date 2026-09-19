@@ -1,0 +1,39 @@
+{
+  "scope": "横版 feasibility，新生态与片区版本",
+  "simulation": {
+    "kernel_tests_passed": 5,
+    "ecology_tests_passed": 3,
+    "long_run_years": 300,
+    "long_run_report": "ecology-300-years.json",
+    "browser_completed_years": 50,
+    "browser_50_year_error": -5.12e-8,
+    "completed_30000_years": false,
+    "batch_30000_start_pause_checked": true
+  },
+  "browser": {
+    "temperature_rain_snow_layers_checked": true,
+    "temperature_regions": 16,
+    "forest_regions": 23,
+    "terrain_regions": 101,
+    "qi_regions": 1,
+    "composite_regions": 21,
+    "selected_composite_checked": "极寒 · 疏林 / 无林 · 丘陵 · 普通，768格",
+    "selected_temperature_checked": "凉温，16649格，平均界温10.14",
+    "svg_icon_loaded": true,
+    "terrain_portrait_checked": true,
+    "vegetation_and_mountain_atlases_rendered": true,
+    "console_errors_at_final_check": []
+  },
+  "goal_requirements": {
+    "species_and_environment": "20种，颜色与耐受参数不同；100年时全部20种出现，普通植物不能加工灵气",
+    "surface_and_temperature": "13种默认地表，雨雪图层，-1000至1000界温；多种子/宽度极端比例低于4%",
+    "regions": "四维连通片区与四维综合分类，面积门槛、动态消失、选中边界与均值",
+    "art": "三张生成图集24幅图形、4个SVG图标和原生地图符号，已接入地图和图鉴"
+  },
+  "limitations": [
+    "界温是幻想刻度，不是摄氏温度",
+    "降雨降雪是年平均相对量，未模拟季节积雪深度和融雪",
+    "地貌示意图不是逐格生成的真实局部场景",
+    "整体世界感与六大地域的视觉布局仍可继续迭代，不以数值测试代替审美判断"
+  ]
+}

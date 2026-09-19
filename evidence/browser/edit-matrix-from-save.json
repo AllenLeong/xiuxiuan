@@ -1,0 +1,424 @@
+{
+  "date": "2026-09-16T09:59:59.491Z",
+  "source": "/Users/a/Downloads/青野-青野-001-0.25年 (1).json",
+  "sha256": "85b574f472ecbfd238fbcf81da9d570b8db18b54973478f8f72cdaf3928dd508",
+  "scope": "Successful commands captured in actual UI-exported save; dialog validation verified separately.",
+  "edits": [
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "air",
+        "value": 40,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 4.095362610312161,
+      "after": 40,
+      "delta": 35.90463738888502
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "conduct",
+        "value": 0,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.037070471207267676,
+      "after": 0,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "conduct",
+        "value": 0,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "surfaceEast",
+        "value": 0.2,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.07737711760111801,
+      "after": 0.2,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "heat",
+        "value": 12,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.7347412735082582,
+      "after": 12,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "baseTemp",
+        "value": 28,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 24.922483952123933,
+      "after": 28,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "baseWater",
+        "value": 0.65,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.6190725220624322,
+      "after": 0.65,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "groundGatherRate",
+        "value": 2,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.000004824930401016997,
+      "after": 2,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "gatherRate",
+        "value": 1.5,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.000004824930401016997,
+      "after": 1.5,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "gatherLimit",
+        "value": 60,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 2.000289495824061,
+      "after": 60,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "ground",
+        "value": 100,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 206.79892615820458,
+      "after": 100,
+      "delta": -106.7989261560142
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "airCapacity",
+        "value": 600,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 809.5362610312161,
+      "after": 600,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "soilCapacity",
+        "value": 50,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 40.41129870335298,
+      "after": 50,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "soilBindRate",
+        "value": 0.02,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.015960691391075303,
+      "after": 0.02,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "soilReleaseRate",
+        "value": 0.03,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.005065514348207825,
+      "after": 0.03,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "outlet",
+        "value": 0.05,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.0012037664415216224,
+      "after": 0.05,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "surfaceNorth",
+        "value": 0.3,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.19267391266382514,
+      "after": 0.3,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "surfaceSouth",
+        "value": 0.4,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.2644848295854547,
+      "after": 0.4,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "field",
+        "field": "surfaceWest",
+        "value": 0.5,
+        "species": 0,
+        "layer": 1,
+        "ancient": false
+      },
+      "before": 0.10317856626994784,
+      "after": 0.5,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "plant",
+        "field": "groundGatherRate",
+        "value": 1,
+        "species": 6,
+        "layer": 1,
+        "ancient": true
+      },
+      "before": null,
+      "after": null,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "trait",
+        "field": "process",
+        "value": 4,
+        "species": 6,
+        "layer": 1,
+        "ancient": true
+      },
+      "before": 5,
+      "after": 4,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "trait",
+        "field": "absorb",
+        "value": 2,
+        "species": 6,
+        "layer": 1,
+        "ancient": true
+      },
+      "before": 0.1,
+      "after": 2,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "trait",
+        "field": "root",
+        "value": 3,
+        "species": 6,
+        "layer": 1,
+        "ancient": true
+      },
+      "before": 0.08,
+      "after": 3,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "trait",
+        "field": "release",
+        "value": 0.2,
+        "species": 6,
+        "layer": 1,
+        "ancient": true
+      },
+      "before": 0.15,
+      "after": 0.2,
+      "delta": 0
+    },
+    {
+      "year": 0,
+      "step": 0,
+      "command": {
+        "i": 32865,
+        "kind": "trait",
+        "field": "capacity",
+        "value": 200,
+        "species": 6,
+        "layer": 1,
+        "ancient": true
+      },
+      "before": 100,
+      "after": 200,
+      "delta": 0
+    },
+    {
+      "year": 0.25,
+      "step": 1,
+      "command": {
+        "i": 32865,
+        "kind": "death",
+        "field": "groundGatherRate",
+        "value": 200,
+        "species": 6,
+        "layer": 1,
+        "ancient": true
+      },
+      "before": null,
+      "after": null,
+      "delta": 0
+    }
+  ]
+}

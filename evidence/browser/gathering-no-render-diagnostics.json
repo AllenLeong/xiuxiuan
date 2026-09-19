@@ -1,0 +1,20 @@
+{
+  "date":"2026-09-16",
+  "browser":"Codex in-app Chrome/152.0.0.0",
+  "viewport":{"width":1280,"height":720},
+  "size":256,"fromYear":0.25,"toYear":100.25,"stepsAdvanced":400,
+  "diagnosticElapsedSeconds":51.74989999997616,
+  "frames":3105,"draws":0,
+  "note":"Elapsed diagnostic interval includes final pause; not simulation throughput. Drawing disabled before advancing, then re-enabled and visually verified before next branch.",
+  "memoryTimeline":[
+    {"elapsedSeconds":0.013999999988078344,"used":177775441,"total":196525545},
+    {"elapsedSeconds":10.013999999988078,"used":75703175,"total":89719435},
+    {"elapsedSeconds":20.01409999998808,"used":42246563,"total":58000011},
+    {"elapsedSeconds":30.01409999998808,"used":84072981,"total":95748765},
+    {"elapsedSeconds":40.01419999998808,"used":96876411,"total":111231623},
+    {"elapsedSeconds":50.01419999998808,"used":17795295,"total":18285191}
+  ],
+  "fullStateHash":"d9f8e809bd394bfe0a6a040c1cdca6209bb61fc80e8d4bc3b9ea57ef0de676d5",
+  "serializedFields":101,
+  "identicalToFixedAndChangingView":true
+}

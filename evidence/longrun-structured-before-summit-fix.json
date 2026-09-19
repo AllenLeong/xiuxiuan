@@ -1,0 +1,430 @@
+{
+  "started": "2026-09-15T20:56:38.384Z",
+  "mode": "Node headless; includes audit overhead; not browser FPS",
+  "size": 256,
+  "dt": 0.25,
+  "years": 500,
+  "seeds": [
+    "验收-101",
+    "验收-202",
+    "验收-303",
+    "验收-404",
+    "验收-505"
+  ],
+  "machine": {
+    "cpu": "Apple M2",
+    "memory": 17179869184,
+    "os": "25.3.0",
+    "node": "v25.8.0"
+  },
+  "sourceHashes": {
+    "src/world.js": "dba95ecfb2284ad805f576946c2275690186c38b838abf9d14ac5397d185b816",
+    "src/species.js": "1b3db163ed8c9f5d5e72f6071c5139f76e296f1720ab2b2b7e8ebfd2b0eea477",
+    "src/terrain.js": "5e06375bd704841d57ea5e1d5a395939d7924ab28e92f9ebae777488446c79d4",
+    "src/geography.js": "944181d71b3dbdbd29cc7c2e15961b6b9fdcc2f7d16c8e8de624b063a97050ca",
+    "src/landforms.js": "6a8e710df8aaabc6023f9a07f46b0eb893823093769d9f3cc69dc1368c1a907f",
+    "src/validate-state.js": "832a53985f1fc9af4b57cc5c0f8cd376e2d76987e19ec97c18ae56aaf204c0da",
+    "verification/step-audit.js": "edaea4e0609672082a60190f21545d054c4a88487e54d4f8cb1911dd40a251ad",
+    "scripts/longrun-structured.mjs": "b4dc1ed1f8350040790dd988a9a599e52094bae22bd03970a8f14b376f9443b2"
+  },
+  "runs": [
+    {
+      "seed": "验收-101",
+      "generationMs": 255.170709,
+      "steps": 2000,
+      "invalid": 0,
+      "negative": 0,
+      "capacity": 0,
+      "budget": 0,
+      "maxRelativeError": 4.1997075620189355e-14,
+      "firstFailure": null,
+      "checkpoints": [
+        {
+          "year": 25,
+          "elapsedMs": 5496.530708,
+          "memory": {
+            "rss": 248758272,
+            "heapTotal": 76955648,
+            "heapUsed": 9506880,
+            "external": 97757722,
+            "arrayBuffers": 88371439
+          },
+          "total": 15899755.719065286,
+          "plants": 143334,
+          "trees": 68179,
+          "ground": 14972002.010475103,
+          "air": 166828.56010759453,
+          "mineral": 588786.6093924036,
+          "ancients": 40,
+          "escaped": 291406.896364459
+        },
+        {
+          "year": 50,
+          "elapsedMs": 10039.277667,
+          "memory": {
+            "rss": 321798144,
+            "heapTotal": 145375232,
+            "heapUsed": 16969544,
+            "external": 90497866,
+            "arrayBuffers": 70021359
+          },
+          "total": 15985020.722362874,
+          "plants": 208497,
+          "trees": 110935,
+          "ground": 14801827.645742996,
+          "air": 159358.7097711271,
+          "mineral": 797204.092472649,
+          "ancients": 39,
+          "escaped": 535788.7100919752
+        },
+        {
+          "year": 75,
+          "elapsedMs": 14794.560917,
+          "memory": {
+            "rss": 312901632,
+            "heapTotal": 145375232,
+            "heapUsed": 45894504,
+            "external": 83157834,
+            "arrayBuffers": 81031407
+          },
+          "total": 16091184.173719628,
+          "plants": 279164,
+          "trees": 179429,
+          "ground": 14831017.153339688,
+          "air": 159457.6876947746,
+          "mineral": 804413.9854504698,
+          "ancients": 38,
+          "escaped": 776431.7856500087
+        },
+        {
+          "year": 100,
+          "elapsedMs": 19536.752083,
+          "memory": {
+            "rss": 313098240,
+            "heapTotal": 145375232,
+            "heapUsed": 14548048,
+            "external": 90497866,
+            "arrayBuffers": 70021359
+          },
+          "total": 16220550.80960703,
+          "plants": 354337,
+          "trees": 271842,
+          "ground": 14860099.440111535,
+          "air": 160358.3074136219,
+          "mineral": 810825.7094678704,
+          "ancients": 37,
+          "escaped": 1018223.5798699035
+        },
+        {
+          "year": 125,
+          "elapsedMs": 24350.504083,
+          "memory": {
+            "rss": 314687488,
+            "heapTotal": 145375232,
+            "heapUsed": 51638008,
+            "external": 83157834,
+            "arrayBuffers": 81031407
+          },
+          "total": 16387954.490970638,
+          "plants": 423574,
+          "trees": 371481,
+          "ground": 14886331.891701564,
+          "air": 161662.49852042773,
+          "mineral": 819540.6091684201,
+          "ancients": 37,
+          "escaped": 1261649.8986538127
+        },
+        {
+          "year": 150,
+          "elapsedMs": 29400.55525,
+          "memory": {
+            "rss": 314703872,
+            "heapTotal": 145375232,
+            "heapUsed": 44226880,
+            "external": 79487818,
+            "arrayBuffers": 77361391
+          },
+          "total": 16605242.190210504,
+          "plants": 492615,
+          "trees": 464779,
+          "ground": 14910925.872914707,
+          "air": 162970.21906282761,
+          "mineral": 830281.9201328862,
+          "ancients": 36,
+          "escaped": 1507020.007573918
+        },
+        {
+          "year": 175,
+          "elapsedMs": 34324.685917,
+          "memory": {
+            "rss": 314703872,
+            "heapTotal": 145375232,
+            "heapUsed": 57691904,
+            "external": 83157834,
+            "arrayBuffers": 81031407
+          },
+          "total": 16875547.879450038,
+          "plants": 550379,
+          "trees": 562543,
+          "ground": 14935480.025204636,
+          "air": 165145.72109935124,
+          "mineral": 842977.5397378766,
+          "ancients": 35,
+          "escaped": 1755103.7089822118
+        },
+        {
+          "year": 200,
+          "elapsedMs": 39384.633417,
+          "memory": {
+            "rss": 314720256,
+            "heapTotal": 145375232,
+            "heapUsed": 43516576,
+            "external": 79487818,
+            "arrayBuffers": 77361391
+          },
+          "total": 17202276.588862464,
+          "plants": 593988,
+          "trees": 659977,
+          "ground": 14960276.55957043,
+          "air": 167417.4398731761,
+          "mineral": 857374.6660456486,
+          "ancients": 32,
+          "escaped": 2005686.6962521207
+        },
+        {
+          "year": 225,
+          "elapsedMs": 45123.006042,
+          "memory": {
+            "rss": 316833792,
+            "heapTotal": 145637376,
+            "heapUsed": 67438088,
+            "external": 86827850,
+            "arrayBuffers": 84701423
+          },
+          "total": 17583392.663817093,
+          "plants": 636029,
+          "trees": 759897,
+          "ground": 14985386.315820495,
+          "air": 169587.75434151336,
+          "mineral": 873506.2271769284,
+          "ancients": 32,
+          "escaped": 2260326.900294491
+        },
+        {
+          "year": 250,
+          "elapsedMs": 50042.145125,
+          "memory": {
+            "rss": 316833792,
+            "heapTotal": 145637376,
+            "heapUsed": 22890424,
+            "external": 90497866,
+            "arrayBuffers": 70021359
+          },
+          "total": 18015393.58352011,
+          "plants": 658705,
+          "trees": 834558,
+          "ground": 15011201.171658272,
+          "air": 173575.5732306729,
+          "mineral": 891374.7802713724,
+          "ancients": 14,
+          "escaped": 2519026.612770489
+        },
+        {
+          "year": 275,
+          "elapsedMs": 54975.194167,
+          "memory": {
+            "rss": 308199424,
+            "heapTotal": 145637376,
+            "heapUsed": 34480656,
+            "external": 75817802,
+            "arrayBuffers": 73691375
+          },
+          "total": 18480554.577821642,
+          "plants": 686981,
+          "trees": 904377,
+          "ground": 15038666.260963269,
+          "air": 182291.27934043438,
+          "mineral": 910733.5646765449,
+          "ancients": 12,
+          "escaped": 2796854.5277804667
+        },
+        {
+          "year": 300,
+          "elapsedMs": 60052.468958,
+          "memory": {
+            "rss": 286244864,
+            "heapTotal": 145637376,
+            "heapUsed": 35902264,
+            "external": 75817802,
+            "arrayBuffers": 73691375
+          },
+          "total": 19006941.54016431,
+          "plants": 699825,
+          "trees": 978664,
+          "ground": 15066250.19000275,
+          "air": 180395.00052517155,
+          "mineral": 932230.6883526093,
+          "ancients": 10,
+          "escaped": 3068540.47042855
+        },
+        {
+          "year": 325,
+          "elapsedMs": 65152.338125,
+          "memory": {
+            "rss": 282853376,
+            "heapTotal": 145637376,
+            "heapUsed": 30569480,
+            "external": 79487818,
+            "arrayBuffers": 77361391
+          },
+          "total": 19581131.76231359,
+          "plants": 707890,
+          "trees": 1028075,
+          "ground": 15093814.500099946,
+          "air": 180868.07561415003,
+          "mineral": 955382.1235639629,
+          "ancients": 10,
+          "escaped": 3340696.1446148036
+        },
+        {
+          "year": 350,
+          "elapsedMs": 70229.193375,
+          "memory": {
+            "rss": 282673152,
+            "heapTotal": 145637376,
+            "heapUsed": 15821872,
+            "external": 90497866,
+            "arrayBuffers": 73691375
+          },
+          "total": 20197642.650538575,
+          "plants": 725792,
+          "trees": 1096938,
+          "ground": 15121141.540410241,
+          "air": 183562.2314791807,
+          "mineral": 980710.1084618703,
+          "ancients": 8,
+          "escaped": 3615247.4440200133
+        },
+        {
+          "year": 375,
+          "elapsedMs": 75285.36516700001,
+          "memory": {
+            "rss": 282689536,
+            "heapTotal": 145637376,
+            "heapUsed": 51280248,
+            "external": 83157834,
+            "arrayBuffers": 81031407
+          },
+          "total": 20843255.705307014,
+          "plants": 732169,
+          "trees": 1152386,
+          "ground": 15148577.708865836,
+          "air": 185671.67144346572,
+          "mineral": 1007978.7007288338,
+          "ancients": 5,
+          "escaped": 3894763.1898620264
+        },
+        {
+          "year": 400,
+          "elapsedMs": 80526.102583,
+          "memory": {
+            "rss": 284672000,
+            "heapTotal": 145637376,
+            "heapUsed": 70313360,
+            "external": 86827850,
+            "arrayBuffers": 84701423
+          },
+          "total": 21523704.429791205,
+          "plants": 744279,
+          "trees": 1218182,
+          "ground": 15175989.723932052,
+          "air": 186562.43630177388,
+          "mineral": 1037084.0731464457,
+          "ancients": 4,
+          "escaped": 4176054.08333458
+        },
+        {
+          "year": 425,
+          "elapsedMs": 85844.21866700001,
+          "memory": {
+            "rss": 284688384,
+            "heapTotal": 145637376,
+            "heapUsed": 62332712,
+            "external": 83157834,
+            "arrayBuffers": 81031407
+          },
+          "total": 22227234.876225855,
+          "plants": 754320,
+          "trees": 1271806,
+          "ground": 15202915.54792094,
+          "air": 187466.0552870835,
+          "mineral": 1068651.6713723415,
+          "ancients": 4,
+          "escaped": 4459266.271747909
+        },
+        {
+          "year": 450,
+          "elapsedMs": 90975.8815,
+          "memory": {
+            "rss": 284704768,
+            "heapTotal": 145637376,
+            "heapUsed": 32462432,
+            "external": 79487818,
+            "arrayBuffers": 77361391
+          },
+          "total": 22955510.479318205,
+          "plants": 766351,
+          "trees": 1313985,
+          "ground": 15229686.077542717,
+          "air": 190118.6988764217,
+          "mineral": 1101949.6426775828,
+          "ancients": 4,
+          "escaped": 4745337.698127545
+        },
+        {
+          "year": 475,
+          "elapsedMs": 96199.31445800001,
+          "memory": {
+            "rss": 284721152,
+            "heapTotal": 145637376,
+            "heapUsed": 41292512,
+            "external": 79487818,
+            "arrayBuffers": 77361391
+          },
+          "total": 23707155.88502513,
+          "plants": 768811,
+          "trees": 1358815,
+          "ground": 15255557.475152222,
+          "air": 192834.0335188544,
+          "mineral": 1137619.9332340714,
+          "ancients": 4,
+          "escaped": 5034489.229175061
+        },
+        {
+          "year": 500,
+          "elapsedMs": 101676.780792,
+          "memory": {
+            "rss": 284721152,
+            "heapTotal": 145637376,
+            "heapUsed": 15825320,
+            "external": 86827850,
+            "arrayBuffers": 73691375
+          },
+          "total": 24473794.815441974,
+          "plants": 772062,
+          "trees": 1392534,
+          "ground": 15281466.680939056,
+          "air": 198016.2742684768,
+          "mineral": 1175382.9864626336,
+          "ancients": 1,
+          "escaped": 5329779.368370018
+        }
+      ],
+      "elapsedMs": 101676.780792,
+      "cumulativeAbsoluteError": 0.00030130983441267745,
+      "balanceError": -2.598389983177185e-7,
+      "pass": true
+    }
+  ],
+  "complete": false
+}

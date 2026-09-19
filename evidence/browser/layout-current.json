@@ -1,0 +1,9 @@
+{
+ "date":"2026-09-16","browser":"Codex in-app Chrome/152.0.0.0",
+ "sizes":[{"width":1280,"height":720,"mapWidth":1280,"detailClientHeight":515},{"width":1440,"height":900,"mapWidth":1440,"detailClientHeight":695}],
+ "controlsChecked":["generateOpen","play","step","speed","advanceOpen","save","load","help","scaleCells","scaleRegions","fit","zoomIn","zoomOut","applyEdit"],
+ "allControlsVisibleAndInsideViewportAtBothSizes":true,
+ "detailScrollHeight":1904,"observedDetailScrollTopAfterScroll":1208.5,
+ "visualChecks":"Viewed screenshots at both sizes; map remains usable beside 300px inspector, edit controls visible; scrolled details to plant and seed section in 1280x720.",
+ "viewportOverrideReset":true,"pass":true
+}

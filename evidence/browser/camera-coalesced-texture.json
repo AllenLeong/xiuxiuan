@@ -1,0 +1,19 @@
+{
+ "date":"2026-09-16","revision":"boundary cache and frame-coalesced texture updates",
+ "sources":"render-optimization-sources.json",
+ "workload":"60 s automated camera motion; inspector initially expanded; second natural-map soak tab running",
+ "browser":"Codex in-app Chrome/152.0.0.0","viewport":{"width":1280,"height":720},
+ "size":256,"year":144.25,"steps":577,"elapsedSeconds":60.0135,
+ "frames":2894,"draws":2894,"rafFps":48.22248327459655,"frameP95":50,
+ "requests":{"play":{"count":1,"p50":47.5,"p95":47.5,"max":47.5},"select":{"count":20,"p50":49,"p95":206.60000002384186,"max":206.60000002384186}},
+ "memoryTimeline":[
+  {"elapsedSeconds":0.013100000011920201,"used":57045351,"total":81611163},
+  {"elapsedSeconds":10.013200000011922,"used":49474383,"total":112541555},
+  {"elapsedSeconds":20.046500000011918,"used":103792193,"total":144047997},
+  {"elapsedSeconds":30.046500000011918,"used":42427981,"total":111230837},
+  {"elapsedSeconds":40.04660000001192,"used":134306983,"total":172326831},
+  {"elapsedSeconds":50.04670000001192,"used":120339668,"total":183713684}
+ ],
+ "memory":{"used":95932436,"total":164183976},"pass":false,
+ "conclusion":"Median click response improved; p95 still exceeds 200ms. Frame p95 50ms means occasional frames below 30FPS remain."
+}

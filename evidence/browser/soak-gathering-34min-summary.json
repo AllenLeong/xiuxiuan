@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-16",
+  "tab": 16,
+  "elapsedSeconds": 2061.0605,
+  "year": 3434.25,
+  "frames": 93271,
+  "draws": 8114,
+  "samples": 181,
+  "windowFirstSeconds": 222.4484,
+  "windowLastSeconds": 2059.905,
+  "heapMinBytes": 28500784,
+  "heapMaxBytes": 104397861,
+  "heapLastBytes": 40540858,
+  "note": "Actual diagnostics before pause. Rolling samples omit initial 222 seconds. Main-thread heap only, not worker memory. Loaded pre-boundary-cache UI; simulation current. P06 regeneration/load and worker cleanup still outstanding."
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-17",
+  "viewport": [
+    1507,
+    1354
+  ],
+  "size": 256,
+  "durationSeconds": 60.2789,
+  "frames": 2542,
+  "fps": 42.170643459,
+  "frameP95": 50,
+  "draw": {
+    "count": 1000,
+    "meanMs": 18.8711,
+    "p95Ms": 47.2,
+    "maxMs": 499
+  },
+  "texture": {
+    "count": 216,
+    "meanMs": 16.8296,
+    "p95Ms": 66.4,
+    "maxMs": 113
+  },
+  "notes": "Intermediate sparse traversal and ring cache only, before membership grouping and pane changes; viewport changed during test; not comparable to1280x720."
+}

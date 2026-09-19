@@ -1,0 +1,20 @@
+{
+  "date":"2026-09-16",
+  "browser":"Codex in-app Chrome 152",
+  "machine":"Apple M2 / 16 GB / Darwin 25.3.0",
+  "viewport":[1280,720],
+  "size":256,
+  "seed":"青野-001",
+  "startYear":191.75,
+  "targetYear":291.75,
+  "dt":0.25,
+  "stepsAdvanced":400,
+  "speed":"maximum",
+  "observations":[
+    {"elapsedMs":17926,"year":286.75,"running":true},
+    {"elapsedMs":31687,"year":291.75,"running":false}
+  ],
+  "completionUpperBoundMs":31687,
+  "passUnder60000Ms":true,
+  "limitations":"Polling yields an upper bound, not an exact completion duration. Existing live world, all ecology features enabled. Concurrent Node structured audit adds CPU load."
+}

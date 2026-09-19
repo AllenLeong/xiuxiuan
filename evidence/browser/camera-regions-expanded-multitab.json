@@ -1,0 +1,19 @@
+{
+ "date":"2026-09-16",
+ "workload":"60 s automated camera motion; expanded inspector; second 256² natural-map soak tab running",
+ "browser":"Codex in-app Chrome/152.0.0.0",
+ "viewport":{"width":1280,"height":720},"size":256,"year":38.25,"steps":153,
+ "elapsedSeconds":60.370400000035765,"frames":558,"draws":558,"rafFps":9.242940248858206,"frameP95":333.40000000000146,
+ "requests":{"play":{"count":1,"p50":266.19999998807907,"p95":266.19999998807907,"max":266.19999998807907},"select":{"count":20,"p50":333.5,"p95":873.1000000238419,"max":873.1000000238419}},
+ "memoryTimeline":[
+  {"elapsedSeconds":0.008900000035762787,"used":46977382,"total":63003286},
+  {"elapsedSeconds":10.058900000035763,"used":77131072,"total":128290676},
+  {"elapsedSeconds":20.47560000003576,"used":65969214,"total":124341442},
+  {"elapsedSeconds":30.525400000035763,"used":106095177,"total":156060901},
+  {"elapsedSeconds":40.54200000003576,"used":62223374,"total":112282802},
+  {"elapsedSeconds":50.62580000003576,"used":71631665,"total":142888129}
+ ],
+ "memory":{"used":73231480,"total":135613800},
+ "pass":false,
+ "limitation":"Concurrent second simulation and expanded inspector differ from earlier conditions; cannot attribute the entire regression to one code change. Single-world retest and profiling remain required."
+}

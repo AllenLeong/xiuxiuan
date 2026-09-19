@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-19",
+  "layout": "continental_outline_final",
+  "url": "http://127.0.0.1:4173/feasibility/",
+  "size": [
+    512,
+    256
+  ],
+  "observedYear": 1,
+  "ledgerError": 1.52e-09,
+  "wholeMainlandVisible": true,
+  "surfaceNetDirectionsToggle": true,
+  "groundRoutesToggle": true,
+  "consoleErrors": [],
+  "limits": [
+    "768/1024 final-outline browser rendering not checked",
+    "50-year interaction checks belong to previous layout",
+    "Node 300-year evidence is distinct from browser evidence"
+  ]
+}

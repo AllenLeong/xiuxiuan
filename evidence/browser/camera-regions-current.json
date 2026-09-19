@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-16",
+  "workload": "60 s automated camera motion through normal renderer with simulation running",
+  "layer": "综合地域",
+  "concurrentLoad": "Node maturation audit running concurrently",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+  "viewport": {"width":1280,"height":720},
+  "size":256,"year":160.5,"steps":642,
+  "elapsedSeconds":60.014,"frames":2599,"draws":2599,
+  "rafFps":43.306561802246144,"frameP95":66.80000000000109,
+  "requests":{"play":{"count":1,"p50":76.29999995231628,"p95":76.29999995231628,"max":76.29999995231628},"select":{"count":20,"p50":87.10000002384186,"p95":201.60000002384186,"max":201.60000002384186}},
+  "memoryTimeline":[
+    {"elapsedSeconds":0.013299999999999272,"used":22017143,"total":38914535},
+    {"elapsedSeconds":10.0133,"used":62143440,"total":117506192},
+    {"elapsedSeconds":20.0134,"used":38388198,"total":102858906},
+    {"elapsedSeconds":30.0134,"used":37340846,"total":99647694},
+    {"elapsedSeconds":40.0135,"used":48499655,"total":105414879},
+    {"elapsedSeconds":50.130199999999995,"used":34815793,"total":95191281}
+  ],
+  "memory":{"used":51880590,"total":112624002},
+  "conclusion":"Average actual redraw rate exceeds 30 FPS; click p95 exceeds 200ms. P01 not passed. This does not guarantee every frame meets 30FPS."
+}

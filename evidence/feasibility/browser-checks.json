@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-19",
+  "url": "http://127.0.0.1:4173/feasibility/",
+  "seed": "横陆-001",
+  "size": [
+    512,
+    256
+  ],
+  "observations": {
+    "reachedYear": 50,
+    "air": [
+      43846.15,
+      209141.98
+    ],
+    "plantQi": [
+      453.86,
+      1401.09
+    ],
+    "forestCellsAt50": 36509,
+    "spiritualTreeCellsAt50": 80,
+    "ledgerErrorAt50": -1.51e-09,
+    "sample": {
+      "coordinate": [
+        284,
+        152
+      ],
+      "species": "天青灵树",
+      "mass": [
+        0.65,
+        2.1
+      ],
+      "qi": [
+        12.87,
+        61.05
+      ],
+      "temperature": [
+        20.23,
+        16.82
+      ],
+      "retentionPercent": [
+        33.38,
+        52.86
+      ]
+    },
+    "baselinePreservedCamera": true,
+    "baselineDisabledEdits": true,
+    "pausedSupplyEditAndOneYearAdvance": true,
+    "afterEditYear": 51,
+    "ledgerErrorAfterEdit": -3.26e-09,
+    "consoleErrorsAtCheck": []
+  },
+  "limits": [
+    "Browser did not run the entire 1000-year audit; the long audit is Node kernel evidence.",
+    "512-wide browser layout and sample validated; 768/1024 sizes have kernel checks only.",
+    "User visual acceptance is pending."
+  ],
+  "layout": "before_complete_continental_outline"
+}

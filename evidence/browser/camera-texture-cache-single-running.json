@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-16",
+  "workload": "60s camera exercise, one running world; old soak page paused; inspector selected but cell drilldown collapsed. Help dialog opened during final portion. Not directly comparable to earlier dual-running-world samples.",
+  "browser": "Codex in-app Chrome152",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "size": 256,
+  "yearAtReport": 168,
+  "yearAfterPause": 168.25,
+  "elapsedSeconds": 60.0219,
+  "frames": 2940,
+  "draws": 2940,
+  "rafFps": 48.9821215256,
+  "frameP95": 50,
+  "selectMs": [
+    105.60000002384186,
+    81.69999998807907,
+    52.30000001192093,
+    35.700000047683716,
+    80.09999996423721,
+    17,
+    101.89999997615814,
+    32.89999997615814,
+    16.399999976158142,
+    38.19999998807907,
+    19.30000001192093,
+    81.30000001192093,
+    52,
+    71.09999996423721,
+    85.89999997615814,
+    20.80000001192093,
+    36.89999997615814,
+    19.100000023841858,
+    38.5,
+    19.5
+  ],
+  "selectP50": 38.5,
+  "selectP95": 105.60000002384186,
+  "consoleErrors": [],
+  "conclusion": "All20 selection reply/DOM timings below200ms. Average49fps but framep95=50ms. Does not prove sustained30fps or fullP01."
+}

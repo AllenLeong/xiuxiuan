@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "Codex 图像 2026年9月20日 03_10_47.png",
+      "bytes": 3704502,
+      "sha256": "ac388bba9513491ccb3f2cad45011b2cfda07a3d02c3dbb42e635a8f954e905f"
+    },
+    {
+      "path": "feasibility/assets/forest.svg",
+      "bytes": 240,
+      "sha256": "d94b7b5b89b35d1e35ce3378a3988570d2a3579a674e19f10c37168d18c96a07"
+    },
+    {
+      "path": "feasibility/assets/mountain-atlas.png",
+      "bytes": 2373657,
+      "sha256": "9be4392101cbb5df106413b702bae722821d081960d49507be05b23b28a298b0"
+    },
+    {
+      "path": "feasibility/assets/qi.svg",
+      "bytes": 242,
+      "sha256": "586f55c2fc9781197014367dc2b17d238bdc7751cc2058f7d6876619f665a719"
+    },
+    {
+      "path": "feasibility/assets/temperature.svg",
+      "bytes": 243,
+      "sha256": "e998956f2bd098c4cc3bbda573e88ecb420bd7950f206bf2cf8297d590f6ac97"
+    },
+    {
+      "path": "feasibility/assets/terrain-atlas.png",
+      "bytes": 3844170,
+      "sha256": "1dfd49a0f4e81b575dd76826b60ca9cdc0ab8fb7674b0d92257b2af8500cdc70"
+    },
+    {
+      "path": "feasibility/assets/terrain.svg",
+      "bytes": 217,
+      "sha256": "d9c714c2d753107a975130cb9837837f0cb3fc0393b8bae1e7b8ce938481b428"
+    },
+    {
+      "path": "feasibility/assets/vegetation-atlas.png",
+      "bytes": 2992121,
+      "sha256": "d1ed5468a9538ad99f753c9e6dd61d9eb10ab6d9180fa618426bdcc163397571"
+    },
+    {
+      "path": "sideview/assets/building-atlas-v1.png",
+      "bytes": 2668626,
+      "sha256": "0f30dac53990f7467415758b1a7972a1067a2ef1512b078232aa5e96954fb404"
+    },
+    {
+      "path": "sideview/assets/cliff-atlas-v1.png",
+      "bytes": 3411528,
+      "sha256": "516f886158e275152fe2070268134ee8ea593b9ec2e2be90b4a3de619f79ff9b"
+    },
+    {
+      "path": "sideview/assets/foreground-atlas-v1.png",
+      "bytes": 3067152,
+      "sha256": "5561dfaf9b3d7eef4642bdc0612ae895fc49edfb63e12d1ea5d82df0d72bff4b"
+    },
+    {
+      "path": "sideview/assets/mountain-distance-v1.png",
+      "bytes": 3095684,
+      "sha256": "bf034a9a58f0000152ab01df7232d7045d26257565f3a2955a063c7d85ac92a2"
+    },
+    {
+      "path": "sideview/assets/rock-detail-v1.png",
+      "bytes": 3339874,
+      "sha256": "1de0e2477aa77a9e876ec236397a62fd6fa819daa648062c3be154380f053774"
+    },
+    {
+      "path": "参考图片/Codex 图像 2026年9月20日 02_18_43.png",
+      "bytes": 3211154,
+      "sha256": "caa23e358779901033ffa17ccba6cefc8633f94ac0411ec3fe77e9b3a5cacd28"
+    },
+    {
+      "path": "参考图片/Codex 图像 2026年9月20日 02_19_17.png",
+      "bytes": 3467241,
+      "sha256": "e1c5ae33ff767b9875f40f9e8cf6964285da58a42a56526675ed9d8e45b8a3f2"
+    },
+    {
+      "path": "参考图片/Codex 图像 2026年9月20日 02_21_01.png",
+      "bytes": 3628599,
+      "sha256": "e1627256b1fb9d2fa75a2dacbd3f3e4cfac238257bb1992ef267c59ddff10dc0"
+    },
+    {
+      "path": "参考图片/Codex 图像 2026年9月20日 02_22_09.png",
+      "bytes": 3666684,
+      "sha256": "c39e4c5bddd1010ab19cb2dda6fd941de718aa4ef4d404fb134ec890a3983588"
+    }
+  ]
+}

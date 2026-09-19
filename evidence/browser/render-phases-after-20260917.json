@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-17",
+  "size": 256,
+  "viewport": [
+    1280,
+    720
+  ],
+  "browser": "Chrome152 Codex in-app",
+  "elapsedSeconds": 60.0069,
+  "yearAtReport": 162.25,
+  "yearAfterPause": 162.75,
+  "frames": 3309,
+  "draws": 3309,
+  "fps": 55.1436584793,
+  "frameP95": 33.3,
+  "phases": {
+    "draw": {
+      "count": 1000,
+      "mean": 8.1197,
+      "p95": 17.3,
+      "max": 62.7
+    },
+    "texture": {
+      "count": 239,
+      "mean": 11.618,
+      "p95": 27,
+      "max": 73.2
+    }
+  },
+  "selectMs": [
+    18.2,
+    16.1,
+    49,
+    34.8,
+    15.9,
+    30.8,
+    15.8,
+    82.8,
+    66.1,
+    33.5,
+    13.4,
+    19.4,
+    48.5,
+    15.6,
+    78.6,
+    48.6,
+    16.9,
+    15.7,
+    21.7,
+    47.9
+  ],
+  "selectP95": 82.8,
+  "memorySamplesBytes": [
+    44223670,
+    142544750,
+    37368618,
+    129127460,
+    90091703,
+    68195312
+  ],
+  "errors": [],
+  "notes": "One running world; current pane switching exercised and 20 map clicks. Help opened toward end. Draw samples bounded last1000. Wallclock runs differ in total simulated steps; benchmark is not deterministic pixel comparison. Occasional slow frames remain."
+}

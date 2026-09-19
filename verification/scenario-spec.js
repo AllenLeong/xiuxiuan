@@ -1,0 +1,16 @@
+// Versioned acceptance criteria. gathering-2 explicitly replaces raw grass count with biomass + stored qi in S03/S05; see docs/12 for rationale. No outcome-dependent simulation branches.
+export const SPEC_VERSION='2026-09-16-gathering-2';
+export const checkpoints=[0,1,5,10,20,40,60,80,100];
+export const criteria={
+ S01:[['100 年：有地下释放与草群；关闭出口不建立',r=>r.treatment.final.grass>100&&r.control.final.grass===0&&r.treatment.flow.vent>0]],
+ S02:[['100 年：矿物超过 100、草为零；低矿化岩性不成矿',r=>r.treatment.final.mineral>100&&r.treatment.final.grass===0&&r.control.final.mineral===0]],
+ S03:[['100 年：连通出口有上游流入，草本生物量、植物积累与游离量高于断流',r=>r.treatment.centerFlow.groundIn>0&&r.control.centerFlow.groundIn===0&&r.treatment.final.grassMass>r.control.final.grassMass*2&&r.treatment.final.plantQi>r.control.final.plantQi*2&&r.treatment.final.air>r.control.final.air]],
+ S04:[['100 年：阳坡旱原草、阴坡阴蕨分别建立，另一种不占据',r=>r.treatment.final.speciesCounts[0]>50&&r.treatment.final.speciesCounts[1]===0&&r.control.final.speciesCounts[1]>50&&r.control.final.speciesCounts[0]===0]],
+ S05:[['同起点公开编辑关闭通道；流入停止，100 年草本生物量、植物积累与游离量降低',r=>r.control.interventions.some(e=>e.cmd.field==='conduct'&&e.cmd.value===0)&&r.control.centerFlow.groundIn===0&&r.treatment.centerFlow.groundIn>0&&r.treatment.final.grassMass>r.control.final.grassMass*2&&r.treatment.final.plantQi>r.control.final.plantQi*2&&r.treatment.final.air>r.control.final.air&&r.control.trace[0].centerGrass===r.treatment.trace[0].centerGrass]],
+ S06:[['100 年：初始库存相同、零加工对照无天道植物输入；加工树带来周边草群',r=>r.treatment.trace[0].plantQi===r.control.trace[0].plantQi&&r.control.flow.processing===0&&r.treatment.flow.processing>100&&r.treatment.flow.release>0&&r.treatment.final.grass>r.control.final.grass+100&&r.treatment.final.air>r.control.final.air]],
+ S07:[['100 年：密植群体总加工、释放均较多，仍有草存活',r=>r.treatment.flow.processing>r.control.flow.processing*2&&r.treatment.flow.release>r.control.flow.release*2&&r.treatment.final.grass>0]],
+ S08:[['100 年：相同零外部输入，结合及生物库超过游离库十倍，留存优于对照',r=>r.treatment.final.input===r.control.final.input&&r.treatment.final.input===0&&(r.treatment.final.plantQi+r.treatment.final.detritus)>r.treatment.final.air*10&&(r.treatment.final.plantQi+r.treatment.final.detritus)>(r.control.final.plantQi+r.control.final.detritus)&&r.treatment.final.air<r.control.final.air]],
+ S09:[['20 年：相同树体型，强吸收累积取用更多，中心与四邻草总量下降',r=>{const a=r.treatment.trace.find(t=>t.year===20),b=r.control.trace.find(t=>t.year===20);return a.centerTreeMass===b.centerTreeMass&&r.treatment.treeAbsorb>r.control.treeAbsorb&&a.centerGrass+a.neighborGrass<b.centerGrass+b.neighborGrass&&a.air<b.air;}]],
+ S10:[['死亡遗骸保留；100 年：分解有转移并增加草，零分解保持原遗骸',r=>r.treatment.initialDeath?.qi===500&&r.control.initialDeath?.qi===500&&r.treatment.flow.decompose>100&&r.control.flow.decompose===0&&r.control.final.detritus>=500&&r.treatment.final.grass>r.control.final.grass+100]],
+ S11:[['100 年：零天道加工树从地下成长为古树并养草；三个对照解释限制',r=>r.treatment.treeProcessing===0&&r.treatment.centerFlow.root>100&&r.treatment.final.ancients>0&&r.treatment.final.centerGrass>0&&r.control.final.centerGrass===0&&r.treatment.final.centerTemp<r.control.final.centerTemp-2&&r.treatment.final.centerWater>r.control.final.centerWater+.05&&r['no-root'].final.centerTreeMass<r.treatment.final.centerTreeMass&&r.unfit.final.ancients===0]],
+};

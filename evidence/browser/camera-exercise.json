@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-16",
+  "machine": "Apple M2 / 16 GB / Darwin 25.3.0",
+  "browser": "Codex in-app Chrome 152.0.0.0",
+  "viewport": [
+    1280,
+    720
+  ],
+  "seed": "青野-001",
+  "size": 256,
+  "layer": "natural",
+  "speed": 4,
+  "dt": 0.25,
+  "workload": "Explicit diagnostic camera exercise invokes normal renderer every animation frame for 60 seconds; simulation runs normally. Twenty real browser canvas clicks during motion.",
+  "elapsedSeconds": 60.02339999997616,
+  "frames": 3250,
+  "draws": 3250,
+  "redrawFps": 54.145549902226314,
+  "frameIntervalP95Ms": 33.39999999999418,
+  "select": {
+    "count": 20,
+    "p50Ms": 40.30000001192093,
+    "p95Ms": 196.0999999642372,
+    "maxMs": 196.0999999642372
+  },
+  "endYear": 191.75,
+  "endSteps": 767,
+  "mainThreadHeap": {
+    "used": 75356107,
+    "allocated": 113837819
+  },
+  "concurrentLoad": "Node five-seed structured audit was running concurrently.",
+  "limitations": "Average draw FPS, not a guarantee every frame meets 33.3 ms. Camera motion is a reproducible synthetic workload; clicks used real browser controls. Heap excludes unreported worker/GPU memory.",
+  "sourceHashes": {
+    "src/world.js": "dba95ecfb2284ad805f576946c2275690186c38b838abf9d14ac5397d185b816",
+    "src/worker.js": "9f52e2f072c4e9d1a031035014f9100ddb707ba402de311157067562acff5539",
+    "src/map.js": "6b5069ce8bbfbbbc6c01d592037dd5a4990ea2b5299821db3d9cd96776cb6299",
+    "src/app.js": "c9aa1ebfbdfdb5ad35ebadb35663cc72d101b0630de7507af10d851fa2de7805",
+    "src/camera-exercise.js": "c9205b7e6162325a91bec2d1c5c3e92ad4bbd74276ccd15144d8dbcca952097e",
+    "src/diagnostics.js": "83f3e9069dded273a79272cd0dcb0a1d6c81ec08d98ed631a925ad6698c62d47"
+  }
+}

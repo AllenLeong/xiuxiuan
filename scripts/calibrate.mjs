@@ -1,0 +1,3 @@
+import {scenario,observe,SCENARIOS} from '../src/scenarios.js';import {writeFileSync}from'node:fs';
+const all={phase:'calibration — thresholds not yet frozen',results:[]};
+for(const[id]of SCENARIOS){const result={id};for(const variant of ['treatment','control',...(id==='S11'?['no-root','unfit']:[])]){const{world:w,region,center}=scenario(id,variant);const trace=[];for(let t=0;t<400;t++){w.step();if((t+1)%40===0)trace.push(observe(w,region,center));}result[variant]=trace; }all.results.push(result);const a=result.treatment.at(-1),b=result.control.at(-1);console.log(id,JSON.stringify({A:a,B:b}));}writeFileSync('evidence/calibration.json',JSON.stringify(all,null,2));

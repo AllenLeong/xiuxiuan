@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-16",
+  "browser": "Codex in-app browser, Chrome 152",
+  "viewport": [
+    1280,
+    720
+  ],
+  "size": 256,
+  "seed": "青野-001",
+  "cell": [
+    97,
+    128
+  ],
+  "year": 0,
+  "edits": [
+    {
+      "field": "airCapacity",
+      "value": 900,
+      "confirmed": true
+    },
+    {
+      "field": "soilCapacity",
+      "value": 80,
+      "confirmed": true
+    },
+    {
+      "field": "soilBindRate",
+      "value": 0.03,
+      "confirmed": true
+    },
+    {
+      "field": "soilReleaseRate",
+      "value": 0.01,
+      "confirmed": true
+    },
+    {
+      "field": "surfaceEast",
+      "value": 0,
+      "confirmed": true
+    }
+  ],
+  "invalidEdit": {
+    "field": "airCapacity",
+    "value": 1,
+    "rejected": true,
+    "message": "允许范围 4.095362610312161—10000"
+  },
+  "ledger": {
+    "before": 212.7515,
+    "after": 212.7515,
+    "manual": 0
+  },
+  "prewarmCancel": {
+    "requestedYears": 100,
+    "samplesMs": [
+      278,
+      280,
+      280,
+      279,
+      297,
+      281,
+      282,
+      282,
+      315,
+      311
+    ],
+    "p95Ms": 315,
+    "measurement": "Automation clock before browser click to click completion, including tool dispatch; banner read afterwards confirmed 已取消 each time.",
+    "limitations": "Only cancellation during initialization/prewarm. Does not measure all pause paths or physical hardware input latency."
+  },
+  "directGeneration": {
+    "size": 256,
+    "seed": "青野-001",
+    "milliseconds": 308.60000002384186,
+    "samples": 1,
+    "measurement": "generate command to first world snapshot rendered into DOM; current complete configuration"
+  },
+  "recoveryAfterCancel": {
+    "prewarmYears": 20,
+    "finalYear": 20,
+    "paused": true,
+    "browserErrors": []
+  }
+}

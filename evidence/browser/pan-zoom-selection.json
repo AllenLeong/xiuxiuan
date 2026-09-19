@@ -1,0 +1,7 @@
+{
+ "date":"2026-09-16","browser":"Codex in-app Chrome/152.0.0.0","size":256,"year":27.5,"viewport":{"width":1280,"height":720},
+ "beforeDrag":"格 97, 128","dragFrom":[640,368],"dragTo":[740,468],"afterDrag":"格 97, 128",
+ "zoom":{"anchor":[740,468],"direction":"up","pages":3,"gridVisible":true,"sameCellAfterClick":"格 97, 128"},
+ "adjacentClick":{"pixel":[761,500],"pointer":"格 98, 129","selected":"格 98, 129","detail":"第 27.5 年 · 格 98, 129","editPreview":"格 98, 129 · 当前 0 → 1"},
+ "note":"Worker reply is asynchronous; final fields checked after matching-cell summary became visible. Screenshot confirms selected square and grid alignment. No edit submitted and year unchanged."
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-16T09:15:40.996Z",
+  "browser": "Codex in-app browser",
+  "visibility": "background temporary tab",
+  "size": 256,
+  "seed": "青野-001",
+  "fromYear": 0.25,
+  "toYear": 100.25,
+  "steps": 400,
+  "completionConfirmedWithinMs": 27225,
+  "timing": "wall-clock upper bound including UI confirmation delay; not FPS",
+  "pausedAtTarget": true,
+  "selectedCell": [
+    97,
+    128
+  ],
+  "checks": [
+    "generated standard map",
+    "single step .25 year",
+    "paused cell selection with incremental map data",
+    "public advance 100 years",
+    "target and paused banner verified"
+  ],
+  "sourceHashes": {
+    "world": "4f31ccd4f64fc952288854692c1d04394a78fb683b63e1c741dc5387377529a4",
+    "qi-transport": "910a421a98a97177ef427cb8e7c55ca2c28ca6d898e63daa5f2d4f8b98fd29a9",
+    "regions": "c0c3a76b32b69b3dc0ef5e0ba05825620d34381f64c12f53816a772e3dae01ad",
+    "ancient-influence": "dbc2eaaede3f6f08da128d93af504078565bf462e8d338f0151cd80b2f9929c5",
+    "region-geometry": "adc94a382f7892f3c8cf712d6c06bb4272b865e7492bc3118b73501d25dc460f"
+  }
+}

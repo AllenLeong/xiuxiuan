@@ -1,0 +1,49 @@
+{
+  "recordedAt": "2026-09-15T21:30:09.464Z",
+  "sources": {
+    "src/world.js": "dba95ecfb2284ad805f576946c2275690186c38b838abf9d14ac5397d185b816",
+    "src/terrain.js": "167aa54ea6fbe4c1f10b0edf396ff9faabbf1d96171a6e553c5bcd84d9a75f33",
+    "src/flow-routes.js": "e3d00e0f37e501fc42276b0b26c0e55ffa8b84c93139a0704c480b2d93295bd2",
+    "src/flow-render.js": "621a86426ed4027a0672946b6f021cc94456a922cdc306798ca0472d8823e9bb",
+    "tests/flow-streamlines.test.mjs": "1e316b208c4cf9c2809325f0754a9dd7ec6ebd05e1bf018d0f58aa301a79b2d7"
+  },
+  "seed": "青野-001",
+  "size": 256,
+  "year": 10,
+  "step": 40,
+  "scope": "Node extraction cost and signed-face consistency only; not browser FPS, visual acceptance, or long-term channel stability.",
+  "results": [
+    {
+      "prefix": "ground",
+      "elapsedMs": 38.03675000000021,
+      "routes": 512,
+      "segments": 58438,
+      "invalidCrossings": 0,
+      "quadrants": [
+        139,
+        119,
+        140,
+        114
+      ],
+      "lengthMedian": 21.200000000000035,
+      "lengthMax": 86.60000000000039,
+      "deterministic": true
+    },
+    {
+      "prefix": "air",
+      "elapsedMs": 19.382916999999907,
+      "routes": 512,
+      "segments": 44550,
+      "invalidCrossings": 0,
+      "quadrants": [
+        144,
+        121,
+        124,
+        123
+      ],
+      "lengthMedian": 16.600000000000072,
+      "lengthMax": 69.40000000000019,
+      "deterministic": true
+    }
+  ]
+}

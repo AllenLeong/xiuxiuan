@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-16",
+  "browser": "Codex in-app browser",
+  "size": 256,
+  "seed": "青野-001",
+  "year": 0.25,
+  "cell": [97, 128],
+  "scope": "UI edit ledger and actual downloaded-file reload; not full U acceptance",
+  "saveFile": "/Users/a/Downloads/青野-青野-001-0.25年 (1).json",
+  "restoredThroughFileChooser": true,
+  "locatedThroughEventButton": true,
+  "displayedDeathToDetritus": 28.5856,
+  "displayedManualNet": 0,
+  "displayedTotalBefore": 143.9085,
+  "displayedTotalAfter": 143.9085,
+  "staleNeighborFlowsHidden": true,
+  "historyTruncationNoticeVisible": true,
+  "result": "pass"
+}

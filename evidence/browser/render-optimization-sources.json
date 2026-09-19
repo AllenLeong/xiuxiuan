@@ -1,0 +1,11 @@
+{
+  "recorded": "2026-09-16T09:49:55.561Z",
+  "hashes": {
+    "src/map.js": "723bfd7187419801383b944a10899fa861b1000643123c1f36fa74fc35f9e5e5",
+    "src/map-boundaries.js": "e485d0db4c8475dd3101c429e089d2143d39b5115232938e7cab678509224815",
+    "src/app.js": "732257b78faa0d94e1b59b8b55eb0f29fb76f2d9d8a274499af069906b0b607d",
+    "src/worker.js": "e52ad85aaba99218fb320cee59cbc72dcaf64319e13f2435e39027c1a57f7a44",
+    "src/diagnostics.js": "c47067cbe44de3e5b4c4b10d52917f1929d334866f60e34668e85fed81e23549",
+    "src/camera-exercise.js": "c9205b7e6162325a91bec2d1c5c3e92ad4bbd74276ccd15144d8dbcca952097e"
+  }
+}

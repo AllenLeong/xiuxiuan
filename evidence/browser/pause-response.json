@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-16",
+  "browser": "Codex in-app browser / Chrome 152.0.0.0",
+  "machine": "Apple M2, 16 GB, Darwin 25.3.0",
+  "viewport": {"width": 1440, "height": 900},
+  "size": 256,
+  "seed": "青野-001",
+  "speed": "最大",
+  "dt": 0.25,
+  "finalYear": 63.75,
+  "finalSteps": 255,
+  "measurement": "DOM button click handler to worker response applied to map state and inspector DOM. Twenty start/pause cycles through browser controls.",
+  "play": {"count":20,"p50":36,"p95":64.70000004768372,"max":64.70000004768372},
+  "pause": {"count":20,"p50":48.80000001192093,"p95":198.19999998807907,"max":198.19999998807907},
+  "units": "milliseconds",
+  "limits": "Measures pause only, not generation cancel. RAF 59.20 is not interactive map redraw FPS; this session had only 60 redraws, so does not establish P01. Does not include automation dispatch latency or physical input hardware."
+}

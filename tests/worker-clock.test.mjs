@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {Worker} from 'node:worker_threads';
+import {pathToFileURL} from 'node:url';
+test('advance stops at exact target and pause clears the target',async()=>{
+ const url=pathToFileURL(process.cwd()+'/src/worker.js').href;
+ const worker=new Worker(`const {parentPort}=require('node:worker_threads');global.onmessage=null;global.postMessage=d=>parentPort.postMessage(d);import(${JSON.stringify(url)}).then(()=>{parentPort.on('message',d=>global.onmessage({data:d}));parentPort.postMessage({type:'ready'});});`,{eval:true});
+ let messages=[],waiters=[];worker.on('message',m=>{messages.push(m);for(const resolve of waiters.splice(0))resolve();});
+ const next=async predicate=>{const end=Date.now()+10000;while(Date.now()<end){const i=messages.findIndex(predicate);if(i>=0)return messages.splice(i,1)[0];await new Promise(resolve=>{waiters.push(resolve);setTimeout(resolve,100);});}throw Error('worker response timed out');};
+ try{await next(m=>m.type==='ready');worker.postMessage({type:'generate',size:16,seed:'clock'});const initial=await next(m=>m.type==='state');assert.equal(initial.mapReset,true);assert.equal(initial.map.height.length,256);worker.postMessage({type:'advance',years:1});const final=await next(m=>m.type==='state'&&!m.running&&m.year===1);assert.equal(final.steps,4);assert.equal(final.mapReset,false);assert.equal(final.map.height,undefined);assert.equal(final.map.air.length,256);assert.equal(final.targetYear,null);worker.postMessage({type:'advance',years:3000});await next(m=>m.type==='state'&&m.running);worker.postMessage({type:'pause'});const paused=await next(m=>m.type==='state'&&!m.running&&m.year>1);assert.equal(paused.targetYear,null);const year=paused.year;await new Promise(r=>setTimeout(r,150));worker.postMessage({type:'select',i:0});const selected=await next(m=>m.type==='state'&&!m.running);assert.equal(selected.year,year);assert.equal(initial.year,0);assert.equal(selected.mapChanged,false);assert.deepEqual(selected.map,{});worker.postMessage({type:'edit',cmd:{i:0,kind:'field',field:'heat',value:5}});const edited=await next(m=>m.type==='state'&&m.mapChanged);assert.equal(edited.map.heat[0],5);assert.equal(edited.map.height.length,256);worker.postMessage({type:'save'});const saved=await next(m=>m.type==='save');worker.postMessage({type:'load',data:saved.data});const loaded=await next(m=>m.type==='state'&&m.mapReset);assert.equal(loaded.map.heat[0],5);assert.equal(loaded.map.air.length,256);
+ }finally{await worker.terminate();}
+});

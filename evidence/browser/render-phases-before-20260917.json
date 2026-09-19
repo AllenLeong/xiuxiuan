@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-17",
+  "viewport": [
+    1280,
+    720
+  ],
+  "size": 256,
+  "durationSeconds": 60.0239,
+  "frames": 2964,
+  "fps": 49.38033016845346,
+  "frameP95": 50,
+  "year": 163.5,
+  "draw": {
+    "count": 1000,
+    "meanMs": 12.028300001561641,
+    "p95Ms": 58.89999997615814,
+    "maxMs": 339.5
+  },
+  "texture": {
+    "count": 229,
+    "meanMs": 11.129257641244664,
+    "p95Ms": 16.19999998807907,
+    "maxMs": 63.5
+  },
+  "notes": "Rolling last1000 draw samples. Node microbenchmark briefly overlapped; diagnostic helper opened after40seconds. Not isolated causal benchmark."
+}

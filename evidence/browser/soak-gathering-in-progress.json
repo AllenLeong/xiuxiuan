@@ -1,0 +1,14 @@
+{
+  "started": "2026-09-16T09:36:38.753Z",
+  "tabId": "16",
+  "browserId": "1",
+  "url": "http://127.0.0.1:4173/",
+  "size": 256,
+  "seed": "青野-001",
+  "fromYear": 100.25,
+  "speed": "常速",
+  "diagnosticsRecording": true,
+  "confirmedRunning": true,
+  "complete": false,
+  "note": "Background temporary QA page. Revalidate live page and read diagnostics before continuing; timestamp alone is not evidence of valid runtime. Need 30 minutes plus regeneration/load and worker/memory review."
+}

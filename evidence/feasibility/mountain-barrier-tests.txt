@@ -1,0 +1,13 @@
+✔ new surface rule diffuses without attraction and preserves every transferred unit (8.86075ms)
+✔ attraction can overcome concentration gradient; retention reduces loss; capacity limits reception (1.913541ms)
+✔ rectangular generation is reproducible and provides seven plates, diverse habitats and connected ground routes (3387.066083ms)
+✔ new ecology conserves all carrier stocks, returns removed plants to remains and evolves over fifty years (20325.722875ms)
+✔ mountain barriers continuously reduce crossing and blocked qi remains at origin (0.348666ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 24051.006875

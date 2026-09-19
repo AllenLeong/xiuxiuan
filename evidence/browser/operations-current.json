@@ -1,0 +1,14 @@
+{
+ "date":"2026-09-16","browser":"Codex in-app Chrome/152.0.0.0","size":256,"viewport":{"width":1280,"height":720},
+ "prewarmCancellation":{"yearsRequested":100,"count":20,"millisecondsUpperBounds":[287,278,279,277,278,276,294,277,278,279,278,277,292,276,278,274,275,272,281,279],"allConfirmedCancelled":true,"p95UpperBoundMs":294,"timing":"CUA wall clock includes automation round trips. First sample ends when click resolves, remaining samples also include status read."},
+ "recovery":{"seed":"验收-操作-20260916","prewarmYears":20,"confirmedYear":20,"status":"暂停 · 256²","download":"/Users/a/Downloads/青野-验收-操作-20260916-20年.json"},
+ "invalidSave":{"file":"evidence/browser/invalid-save.json","error":"存档版本或地图无效","retainedYear":20,"retainedStatus":"暂停 · 256²"},
+ "maxSpeedPause":{"count":20,"p50Ms":24.700000047683716,"p95Ms":65.89999997615814,"maxMs":65.89999997615814,"finalYear":52.75,"confirmedPaused":true,"timing":"UI request-to-worker-state reply; actual diagnostic measurement"},
+ "sharedDeathRemovalStart":{"file":"/Users/a/Downloads/青野-青野-001-0.5年.json","cell":[97,128],"year":0.5,"species":"天青灵树","ancient":true},
+ "death":{"transferredToDetritus":2.3791,"manualNet":0,"before":146.2137,"after":146.2137},
+ "removal":{"transferredOutside":2.3791,"manualNet":-2.3791,"before":146.2137,"after":143.8346},
+ "ordinaryPlantProcessRejected":"普通植物不能加工天道之气",
+ "negativeSurfaceStockRejected":{"error":"允许范围 0—600","preview":"格 97, 128 · 当前 14.598 → -1"},
+ "naturalLedger":{"dt":0.25,"geology":0.2737,"plantProcessing":2.1267,"surfaceIn":0.1254,"escape":0.2206,"reportedNet":2.3053,"before":143.9085,"after":146.2137,"note":"Displayed quantities independently rounded to four decimals; all internal transfer rows and plant-layer uptake visible."},
+ "generationStateFixVerified":{"during":"预运行中…","loadEnabledDuring":false,"saveEnabledDuring":false,"afterCancel":"已取消","loadEnabledAfterCancel":true,"loadedYearAfterCancel":0.5,"playEnabledAfterLoad":true}
+}

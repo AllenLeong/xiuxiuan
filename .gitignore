@@ -8,3 +8,7 @@ node_modules/
 exports/
 tmp/
 .cache/
+
+# Local engine and generated Godot cache
+.tools/
+**/.godot/

@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "files": [
     {
       "path": "Codex 图像 2026年9月20日 03_10_47.png",
@@ -40,6 +40,36 @@
       "path": "feasibility/assets/vegetation-atlas.png",
       "bytes": 2992121,
       "sha256": "d1ed5468a9538ad99f753c9e6dd61d9eb10ab6d9180fa618426bdcc163397571"
+    },
+    {
+      "path": "godot-demo/assets/ink-atlas.png",
+      "bytes": 2691996,
+      "sha256": "b7052a6c61ac00a28174fecc65e8c66bc480091c61b72b38a5eeba70755d00fa"
+    },
+    {
+      "path": "godot-demo/assets/ink-rock.png",
+      "bytes": 3603321,
+      "sha256": "e049e29e622e642c4f99dbe6c03d205d264b6c64dfcf5f2d6818731992c1f2ad"
+    },
+    {
+      "path": "godot-demo/assets/qinglan-world.png",
+      "bytes": 3854643,
+      "sha256": "4fa5c8f378b75e04e8e17cff15a2209bce4d953ccd6a7fa267b95011b7c776fe"
+    },
+    {
+      "path": "godot-demo/evidence/cave.png",
+      "bytes": 2807530,
+      "sha256": "8ecea1d88c5ba7ea74789c30833faf0ccdb79ae9e1d25f30c4d779ef24183e73"
+    },
+    {
+      "path": "godot-demo/evidence/follow.png",
+      "bytes": 2683740,
+      "sha256": "13be066c4724a6ec8439091a9d9f6631553b92eff87137390544584c24aa205c"
+    },
+    {
+      "path": "godot-demo/evidence/overview.png",
+      "bytes": 2057157,
+      "sha256": "c32de7ae8048395c9ed1dd6216feeba3d6cc131e1de45a8f5f87db556a7e0674"
     },
     {
       "path": "sideview/assets/building-atlas-v1.png",
